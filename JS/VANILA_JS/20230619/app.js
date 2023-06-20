@@ -24,7 +24,7 @@ function onLoginSubmit(event) {
 }
 
 function handleLinkClick(event) {
-  alert("clicked");
+  event.preventDefault();
 }
 loginForm.addEventListener("submit", onLoginSubmit);
-link.addEventListener("click", onLoginSubmit);
+link.addEventListener("click", handleLinkClick);
