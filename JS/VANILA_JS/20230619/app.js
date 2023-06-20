@@ -3,6 +3,9 @@ const loginForm = document.querySelector("#login-form");
 const loginInput = document.querySelector("#login-form input");
 
 const link = document.querySelector("a");
+
+const greeting = document.querySelector("#greeting");
+const HIDDEN_CLASSNAME = "hidden";
 // click Event
 function onLoginSubmit(event) {
   // same as button
@@ -25,6 +28,12 @@ function onLoginSubmit(event) {
 
 function handleLinkClick(event) {
   event.preventDefault();
+  loginForm.classList.add(HIDDEN_CLASSNAME);
+  const username = loginInput.value;
+  //  loginForm 에 hidden class 부여
+  // greeting.innerText = "Hello " + username;
+  greeting.innerText = `Hello ${username}`;
+  geeeting.classList.remove(HIDDEN_CLASSNAME);
 }
 loginForm.addEventListener("submit", onLoginSubmit);
 link.addEventListener("click", handleLinkClick);

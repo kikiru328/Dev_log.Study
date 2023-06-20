@@ -1,0 +1,4 @@
+.hidden {
+  /* display : None : 할당된 공간 자체를 삭제 */
+  display: none;
+}
