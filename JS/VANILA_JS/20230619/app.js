@@ -30,10 +30,19 @@ function handleLinkClick(event) {
   event.preventDefault();
   loginForm.classList.add(HIDDEN_CLASSNAME);
   const username = loginInput.value;
+  localStorage.setItem("username", username);
   //  loginForm 에 hidden class 부여
   // greeting.innerText = "Hello " + username;
   greeting.innerText = `Hello ${username}`;
   geeeting.classList.remove(HIDDEN_CLASSNAME);
 }
 loginForm.addEventListener("submit", onLoginSubmit);
+
+const saveUsername = localStorage.getItem("username");
+if(saveUsername === null) {
+  else{
+
+  }
+}
+
 link.addEventListener("click", handleLinkClick);
