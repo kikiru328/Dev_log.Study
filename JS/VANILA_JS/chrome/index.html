@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo List</title>
+    <link rel="stylesheet" type="text/css" href="src/styles.css" />
+  </head>
+  <body>
+    <div id="backgroundElement">
+      <div id="loginPage">
+        <h1>Welcome Vanlia ToDo List</h1>
+        <h2>Login</h2>
+        <input
+          type="text"
+          id="username"
+          placeholder="ID"
+          required
+        /><br />
+        <input
+          type="password"
+          id="password"
+          placeholder="Password"
+          required
+        /><br />
+        <button onclick="login()">Login</button>
+        <p id="loginError" class="error"></p>
+        <p>
+          <span class="small-text"><a href="#" onclick="showSignup()">Sign up</a></span>
+          <span class="small-text"><a href="#" onclick="showForgotPassword()">Forgot password?</a></span>
+        </p>
+              </div>
+
+      <div id="signupPage" style="display: none">
+        <h1>Sign up</h1>
+        <input
+          type="text"
+          id="signupUsername"
+          placeholder="Username"
+          required
+        /><br />
+        <input
+          type="password"
+          id="signupPassword"
+          placeholder="Password"
+          required
+        /><br />
+        <button onclick="signup()">Sign up</button>
+        <p id="signupSuccess" class="success"></p>
+        <p><a href="#" onclick="showLogin()">Back to Login</a></p>
+      </div>
+
+      <div id="forgotPasswordPage" style="display: none">
+        <h1>Forgot Password</h1>
+        <input
+          type="text"
+          id="forgotUsername"
+          placeholder="Username"
+          required
+        /><br />
+        <button onclick="retrievePassword()">Retrieve Password</button>
+        <p id="forgotPasswordResult"></p>
+        <p><a href="#" onclick="showLogin()">Back to Login</a></p>
+      </div>
+
+    <div id="mainPage" style="display: none">
+      <h1>Welcome, <span id="loggedInUsername"></span>!</h1>
+      <p id="currentTime"></p>
+      <p id="weatherInfo"></p>
+      <h2>Todo List</h2>
+      <input type="text" id="todoInput" placeholder="Enter a task" />
+      <button onclick="addTodo()">Add</button>
+      <ul id="todoList"></ul>
+      <button onclick="logout()">Logout</button>
+    </div>
+    <script src="src/scripts.JS"></script>
+  </body>
+</html>

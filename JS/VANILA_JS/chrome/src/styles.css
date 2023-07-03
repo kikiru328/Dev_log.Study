@@ -1,0 +1,33 @@
+body {
+  background-image: url("default-background.jpg");
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+.small-text {
+  font-size: 12px; /* Adjust the font size as desired */
+  margin-right: 10px; /* Add spacing between the text */
+}
+
+#loginPage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#mainPage {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0;
+  /* padding: 20px; */
+  text-align: center;
+}

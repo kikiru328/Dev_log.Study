@@ -1,0 +1,51 @@
+header {
+  text-align: center;
+  font-family: "Times New Roman";
+}
+
+body {
+  background-color: #fff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  margin-bottom: 30px;
+}
+
+div {
+  width: 180px;
+  height: 360px;
+  background-color: tomato;
+  border: 3px solid white;
+  display: flex;
+}
+
+div > div {
+  height: 80px;
+  background-color: #fff;
+  position: relative;
+  top: 10px;
+  border: none;
+  font-family: "Times New Roman";
+}
+section > div:nth-child(2) {
+  background-color: teal;
+}
+
+main > section:nth-child(2) > div:first-child {
+  background-color: burlywood;
+}
+
+main > section:nth-child(2) > div:nth-child(2) {
+  background-color: thistle;
+}
