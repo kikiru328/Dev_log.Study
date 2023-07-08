@@ -1,7 +1,7 @@
 # Dev_Log.Study
 This Repository contains Language_study log, Certification and small projects for beginner
 
-1. **<u>[Language_study]</u>**  
+ `1. **<u>[Language_study]</u>**  
  
     **<u>Python</u>**  
     Study : Expertised Python Language (Python)  
