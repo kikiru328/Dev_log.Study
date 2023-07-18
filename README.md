@@ -16,7 +16,7 @@ This Repository contains Language_study log, Certification and small projects fo
  
    **<u>[JS](JS)</u>**  
    Clone coding for Chrome.. [NomardCoders-JS](https://nomadcoders.co/javascript-for-beginners/lobby)
-
+ 
    **<u>[Django_Python](Django)</u>**  
    Clone coding for airbnb.. [NomadCoders-Django]([https://nomadcoders.](https://nomadcoders.co/airbnb-clone/lobby)
 
