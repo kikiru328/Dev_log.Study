@@ -4,7 +4,7 @@ This Repository contains Language_study log, Certification and small projects fo
  `1. **<u>[Language_study]</u>**  
  
     **<u>Python</u>**  
-    Study : Expertised Python Language (Python)  
+    Study : Expertised Python Language ( Python)  
 
     **JS**  
     Study : beginner for small projects [JS](JS)  
