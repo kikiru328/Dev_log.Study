@@ -20,7 +20,6 @@ This Repository contains Language_study log, Certification and small projects fo
    **<u>[Django_Python](Django)</u>**  
    Clone coding for airbnb.. [NomadCoders-Django]([https://nomadcoders.](https://nomadcoders.co/airbnb-clone/lobby)
 
-
 3. **<u>[Certification](Certification)</u>**  
    Practical test in Certification (빅데이터분석기사실기)
  
