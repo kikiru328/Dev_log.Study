@@ -9,7 +9,7 @@ This Repository contains Language_study log, Certification and small projects fo
     **JS**  
     Study : beginner for small projects [JS](JS)  
 
-    **Linux**  
+    ** Linux**  
     Study : yet  
 
 2. **<u>[Small Projects]</u>**  
