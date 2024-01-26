@@ -23,3 +23,5 @@ This Repository contains Language_study log, Certification and small projects fo
 3. **<u>[Certification](Certification)</u>**  
    Practical test in Certification (빅데이터분석기사실기)
  
+
+sqld
